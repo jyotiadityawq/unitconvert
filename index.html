@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit  Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="converter">
+    <label for="input">Enter Length:</label>
+    <input type="number" id="input">
+    <select id="unit">
+        <option value="m">Meters</option>
+        <option value="ft">Feet</option>
+        <option value="in">Inches</option>
+        <option value="cm">Centimeters</option>
+    </select>
+    <button onclick="convertLength()">Convert</button>
+    <p id="result"></p>
+</div>
+
+
+<button onclick="resetConverter()">Reset</button>
+
+<script src="script.js"></script>
+</body>
+</html>
